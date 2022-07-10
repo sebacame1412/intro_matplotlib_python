@@ -30,6 +30,16 @@ if __name__ == '__main__':
     # Alumno: Crear una "figura" y crear un "ax" con add_subplot
     # Graficar el "line plot" de "y" en función de "x"
 
+    fig = plt.figure()
+    ax = fig.add_subplot()
+    fig.suptitle("Titulo")
+
+    ax.plot(x,y, color= "red", label= "Line_Plot")
+    ax.set_title = ("Ejercicio N°1")
+    ax.legend()
+    plt.show()
+
+
     # Alumno: Colocar la leyenda y el label con el nombre de la función
     # Darle color a la línea a su elección
 
